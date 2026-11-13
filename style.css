@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+h1{
+    font-size: 52px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+#board{
+    height: 620px;
+    width: 80%;
+    max-width: 600px;
+    font-size: 105px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.cell{
+    background-color: black;
+    color: white;
+    width: 33.33%;
+    max-width: 200px;
+    aspect-ratio: 1/1;
+    text-align: center;
+    align-content: center;
+}
+
+#top-left{
+    border-bottom: 10px solid aliceblue;
+    border-right: 10px solid aliceblue;
+}
+
+#top-center{
+    border-bottom: 10px solid aliceblue;
+    border-right: 10px solid aliceblue;
+}
+
+#top-right{
+    border-bottom: 10px solid aliceblue;
+}
+
+#center-left{
+    border-bottom: 10px solid aliceblue;
+    border-right: 10px solid aliceblue;
+}
+
+#center-center{
+    border-bottom: 10px solid aliceblue;
+    border-right: 10px solid aliceblue;
+}
+
+#center-right{
+    border-bottom: 10px solid aliceblue;
+    
+}
+
+#bottom-left{
+    border-right: 10px solid aliceblue;
+}
+
+#bottom-center{
+    border-right: 10px solid aliceblue;
+}
